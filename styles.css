@@ -1,0 +1,13 @@
+.tq { border-left: 3px solid var(--interactive-accent); padding: 6px 14px 8px; margin: 12px 0; border-radius: 4px; background: var(--background-secondary); }
+.tq-title { font-size: 0.8em; letter-spacing: .06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px; }
+.tq-q p { margin: 0 0 8px; }
+.tq-opt { display: flex; gap: 10px; align-items: baseline; border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 9px 12px; margin: 6px 0; cursor: pointer; user-select: none; transition: background .12s, border-color .12s, opacity .12s; }
+.tq-opt:hover, .tq-opt:focus { background: var(--background-modifier-hover); outline: none; }
+.tq-opt .tq-k { font-weight: 700; color: var(--interactive-accent); min-width: 1.2em; }
+.tq-opt p { margin: 0; }
+.tq-answered .tq-opt { cursor: default; opacity: .45; }
+.tq-answered .tq-opt:hover { background: transparent; }
+.tq-answered .tq-chosen { opacity: 1; border-color: var(--interactive-accent); background: var(--background-modifier-hover); }
+.tq-graded .tq-correct { opacity: 1; border-color: var(--color-green); }
+.tq-graded .tq-chosen.tq-wrong { border-color: var(--color-red); }
+.tq-state { font-size: 0.85em; color: var(--text-muted); margin-top: 6px; }

@@ -1,0 +1,10 @@
+{
+  "id": "tutor-quiz",
+  "name": "Tutor Quiz",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Clickable multiple-choice quiz blocks. Options render markdown and LaTeX; one click locks in the answer and writes it into the note for an AI tutor to grade.",
+  "author": "Emad Khan",
+  "authorUrl": "https://github.com/emadkhan8371",
+  "isDesktopOnly": true
+}
